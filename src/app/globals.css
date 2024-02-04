@@ -2,4 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@layer components {
+  .hoverbutton {
+    @apply transform cursor-pointer transition duration-100 ease-out hover:scale-125;
+  }
+}
